@@ -1,0 +1,134 @@
+/* General reset to ensure consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color to light sky-blue */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB; /* Light sky blue */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* Styling for the header */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Article and section styling */
+article {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for article */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each section */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Ordered list styling */
+ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 5px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    article {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    ol li {
+        font-size: 0.95rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* Very small screens (like phones in portrait mode) */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p, ol li {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+    }
+}
